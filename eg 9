@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    int result = 0, first = 1, next;
+    printf("Enter the number of fabonacci series: ");
+    scanf("%d", &n);
+    printf("Fibonacci Series: ");
+    for (i = 1; i <= n; i++) {
+        printf("%d ", result);
+        result=first+next;
+        first=next;
+        next=result;
+    }
+
+    return 0;
+}
