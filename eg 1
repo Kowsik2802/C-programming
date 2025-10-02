@@ -1,0 +1,6 @@
+#include<stdio.h>
+#define max 100
+int k=100;
+int main(){
+printf("%d",k);
+}
