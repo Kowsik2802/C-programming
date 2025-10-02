@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    char num;
+    scanf("%c",&num);
+    while(num!='x'){
+        printf("hi");
+         scanf("%c",&num);
+    }
+}
+   
